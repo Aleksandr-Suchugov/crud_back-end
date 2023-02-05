@@ -1,0 +1,24 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "crud_back-end",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "yarn install",
+    "start": "forever ./server.js",
+    "watch": "forever -w ./server.js"
+  },
+  "repository": "none",
+  "author": "aleksandr-suchugov",
+  "license": "MIT",
+  "dependencies": {
+    "@koa/cors": "^4.0.0",
+    "forever": "^4.0.3",
+    "http": "^0.0.1-security",
+    "koa": "^2.14.1",
+    "koa-body": "^6.0.1",
+    "koa-router": "^12.0.0",
+    "koa-static": "^5.0.0",
+    "koa2-cors": "^2.0.6"
+  }
+}
